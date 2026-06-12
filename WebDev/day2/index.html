@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2-fullstackjourney</title>
+</head>
+<body>
+    <img   width="200"  src="image.png" alt="pic of e3 shinkansen">
+    <img   width="200"  src="image2.png" alt="pic of e5 shinkansen">
+    <br>
+    <table>
+        <caption>Bullet train info</caption>
+        <thead>
+        <tr>
+            <th>Train-Type</th>
+            <th>Max-speed</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>E-3</td>
+            <td>275 km/hr</td>
+            <td>$100 millon</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+         <tr>
+            <td>E-5</td>
+            <td>320 km/hr</td>
+            <td>$200 millon</td>
+        </tr>
+        </tfoot>
+    </table>
+    <ul type="square">
+        <li>Ticket cost</li>
+        <li>Time-Table</li>
+        <li>Route</li>
+    </ul>
+    <ol type="A">
+        <li>Ticket cost</li>
+        <li>Time-Table</li>
+        <li>Route</li>
+    </ol>
+    <h2>Fill this form to book your tickets</h2>
+    <form action="post">
+        <div>
+        <label for="username">Enter your username</label>
+        <input type="text" id="username"  name="username" placeholder="Enter your username">
+        </div> 
+        <div>
+            <input type="radio" id=male name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id=female name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe to this page" name="subscribe or not">
+            <label for="subscribe to this page">subscribe to this page</label>
+        </div>
+        <div>
+            <label for="writearea">write here</label>
+            <br>
+            <textarea id="writearea" rows="10" cols="20" name="txtarea">enter ur exp in bullet train....</textarea>
+        </div>
+        <div>
+            <select name="your fav train">
+                <option value="ICE 3">ICE 3</option>
+                <option value="TGV">TGV</option>
+                <option value="Bullet Train">Bullet Train</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--inorder to show image/photo on ur webpage 
+    we use 'img' tag it is self closing
+    syntax -> <img src="imgname" alt="description of the img">
+    the image should be store in the same folder as of the html file
+    and in case of server problem 'alt' helps to kn what img was placed here
+    attributes related to img are width and height . defining
+    any one will auto-set the other-->
+
+<!--table can be made using 'table'
+    syntax -><table>
+                <tr>  -> forming the frist row of table
+                <th>  -> the frist row is maily header so th
+                </tr> -> end
+                
+                <tr> 
+                <td> -> providing data based on the header
+                </tr>  
+            </table>  so can as much row u want based on ur need
+            we can grp the table in 3 section thead(frist row) , tbody , tfooter(last row) 
+            it helps in doing css   
+           
+            table attributes are colspan-> meaning horizontal expantion of an cell
+                                 rowspan-> opposite of it--> 
+
+<!--'caption' are basically table title-->
+<!--'br' are used to break line means one thing take the whole line-->
+
+<!--lists are of 3 types
+    unordered list is a list without a heirarchy
+    ordered list is opposite of it
+    definition list is like dictionary
+    type is used to change the symbols of the list
+    for syntax refer above code-->
+
+<!--core webvitals
+    1.CLS[cumulative layout shift] = how much the page shifts will loading
+      to avoid this give imgs width and height
+    
+    2.LCP[largest contentful paint] = means how much time the biggest element in the page takes
+      for good user exp it should be 2.5 sec or less than that  
+
+    3.FID[first input delay] = user gives a input and it takes more than 100 millisecond to process
+    
+    Lighthouse is used to give a report based on the webpage and show where improveent can be made
+    it is located inside inspect-->
+
+    <!--'forms'
+        means taking mutliple inputs from the user at once
+        input is a tag <input>
+        inputs can be of many type like
+        text, 
+        select,
+        radio used when u want user to select only one option (ex= gender),
+        checkbox to select multiple options,
+        textarea for user to write long para. (it is itself a tag)
+
+        attributes of input are 'id'= it is used to give unique name to a input code. (u have to define them inside the input tag)
+                                'name' = used to send data of the form to the server each input code has its own. (u have to define them inside the input tag)
+                                type = we have discussed about it
+
+        'label' tag is used to stick to input element
+        attributes of label is 'for' inside for we write the id of the input elment we want to label to stick to
+        and we define the label
+        it also make user exp better bcuz user can click on the txt while selecting the option instead of checbox or radio
+         -->
+
+<!--inline elements are the elements which take only required amt of space 
+    block elements are the elements which take the whole width -->
+
+  <!--  FOR SYNTAX SEE THE CODE -->
