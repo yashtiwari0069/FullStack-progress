@@ -6,4 +6,15 @@
              3.header txt and para txt 
              4.anchor tag (click on txt and it will send to a desired page )
              5.made a small project name = bookmarks
+             6.meta description
   Dsa-> no progress
+
+#day 2 [12 june 26]
+web-dev -> below are the topic that i learnt today in web-dev
+          1.adding img to webpage
+          2.tables
+          3.caption
+          4.lists
+          5.core webvitals
+          6.forms
+          7.inline and block element
