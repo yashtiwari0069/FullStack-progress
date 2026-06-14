@@ -18,3 +18,9 @@ web-dev -> below are the topic that i learnt today in web-dev
           5.core webvitals
           6.forms
           7.inline and block element
+
+#day 3 [13 june 26]
+web-dev -> topics learnt 
+           1.adding video to webpage its attributes 
+           2.adding audio to webpage at its attributes 
+          
