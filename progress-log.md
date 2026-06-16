@@ -23,6 +23,10 @@ web-dev -> below are the topic that i learnt today in web-dev
 web-dev -> topics learnt 
            1.adding video to webpage its attributes 
            2.adding audio to webpage at its attributes 
+           3.SVG
+           4.iframe
+           5.preload
+           6.id and class
 
 #day 4 [14 june 26]
 zero progess in webdev due to giving laptop to my neighbours
