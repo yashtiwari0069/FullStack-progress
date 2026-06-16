@@ -33,3 +33,12 @@ zero progess in webdev due to giving laptop to my neighbours
 
 #day 5 [15 june 26] 
 zero productivity due to lazyness
+
+#day 6[16 june 2]
+web-dev -> topic learnt
+           1.semantic tags
+           2.html ended and css started
+           3.methods to do css
+           4.css selectors
+           5.css property(2)
+
