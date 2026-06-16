@@ -31,4 +31,5 @@ web-dev -> topics learnt
 #day 4 [14 june 26]
 zero progess in webdev due to giving laptop to my neighbours
 
-#day 5 [15 june 26]
+#day 5 [15 june 26] 
+zero productivity due to lazyness
