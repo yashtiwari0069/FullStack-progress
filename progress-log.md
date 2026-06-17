@@ -42,3 +42,7 @@ web-dev -> topic learnt
            4.css selectors
            5.css property(2)
 
+#day 7[17 june 26]
+web-dev -> topic learnt
+           1.css box model
+
