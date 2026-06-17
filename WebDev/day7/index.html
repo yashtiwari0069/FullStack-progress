@@ -18,11 +18,18 @@
         padding: 30px;
         margin: 20px;
         border: 2px solid black;
+        height: 200px;
+        box-sizing: border-box; 
+        /* the above line means the height defined by the programmer is border + padding + content = height */
+        /* without this height basically means just content height */
      }
     </style>
 </head>
 <body>
     <p id="line1">i am yash</p>
+    <div>
+        i love playing games 
+    </div>
 
     <script src="script.js"></script>
 </body>
@@ -37,6 +44,9 @@
 
      content is inside the box (html element)
      padding = spacing btw content and box border
-     margin = spacing btw  box border and webpage -->
+     margin = spacing btw  box border and webpage/other element
+     'px' should be mention at the end of the value -->
 
 <!-- browser gives a default margin and padding -->
+
+<!-- margin collaspse means when margins overlapping happens and the bigger margin is applied -->
