@@ -46,3 +46,6 @@ web-dev -> topic learnt
 web-dev -> topic learnt
            1.css box model
 
+
+#day 8 [18 june 26] -> prep for mock interview
+
