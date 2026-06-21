@@ -47,5 +47,11 @@ web-dev -> topic learnt
            1.css box model
 
 
-#day 8 [18 june 26] -> prep for mock interview
+#day 8 [18 june 26] -> prep for interview (no progress in web-dev)
+
+#day 9 [19 june 2026] -> prep for interview (no progress in web-dev)
+
+#day 10 [20june 2026] -> interview day  (no progress in web-dev) (pushed nothing on github)
+
+#day11 [21 june 2026] -> 
 
