@@ -53,5 +53,5 @@ web-dev -> topic learnt
 
 #day 10 [20june 2026] -> interview day  (no progress in web-dev) (pushed nothing on github)
 
-#day11 [21 june 2026] -> 
+#day11 [21 june 2026] -> Taking a day off made plans for the upcomming week
 
