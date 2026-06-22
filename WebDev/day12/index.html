@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -57,7 +57,7 @@
       </p>
     </div>
   </body>
-</html>
+</html> -->
 
 <!-- most used txt prop in css
 1.font-family (to change font)
@@ -101,3 +101,58 @@ if same priority then the last one is selected -->
 
 <!--in real world pract use class to apply mutliple css on the same element
 also learn this for interview-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day12</title>
+    <style>
+      html {
+        font-size: 12px; /*it is root*/
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .box {
+        border: 2px solid red;
+        /* width:1921px;  */
+        width: 80vw; /* vw (veiwport width) automatically adjust the width of the webpage based on the screen width of the device that the user is using
+            
+            from value 100 to any lower value make website responsive */
+        background-color: blueviolet;
+        margin: 10px auto; /*use to put element at the center but the element should be block element*/
+        height: 20vh; /*same concept as vw*/
+        font-size: 20px;
+        min-height: 100vh;
+
+      }
+
+      .box p {
+        /* font-size: 1.5em;  */
+        /* para will inherits font-size from box but multiply by 1.5 */
+        font-size: 2rem;
+        /* para will inherits font-size from root but multiply by 2 */
+        width: 50%;  /*50 percent of the parent
+                       so parent width should be define before using percentage*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">this ia a box</div>
+    <div class="box">
+      <p class="txt">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+        molestiae magnam eligendi mollitia! Exercitationem natus sunt aut
+        praesentium amet laboriosam atque. Recusandae soluta minus libero ex
+        eveniet quaerat illo hic laborum suscipit nihil. Totam, beatae odio
+        mollitia dignissimos ipsum magnam laboriosam ipsa, quas consectetur id
+        alias voluptates officia fuga aperiam.
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- css sizing unit - px,rem,em,vh,vw,%,min-height,min-weigth -->
