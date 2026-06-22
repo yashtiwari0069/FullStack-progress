@@ -1,4 +1,4 @@
-<!-- <!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -34,19 +34,22 @@
       .top {
         color: orange;
       }
-       h1.top{     /*it has more specificity 1+10 = 11 */
+      h1.top {
+        /*it has more specificity 1+10 = 11 */
         color: maroon;
       }
 
       /* this is a attribute selector */
-      [data-x = a]{
-        color:black
+      [data-x="a"] {
+        color: black;
       }
     </style>
   </head>
   <body>
     <div>
-      <h1 id="head" class="main top" data-x="a" style="color: blue">my name is yash</h1>
+      <h1 id="head" class="main top" data-x="a" style="color: blue">
+        my name is yash
+      </h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sequi
         dolores quidem nihil tempore. Minima quidem a ullam in. Sit cupiditate
@@ -57,7 +60,7 @@
       </p>
     </div>
   </body>
-</html> -->
+</html>
 
 <!-- most used txt prop in css
 1.font-family (to change font)
@@ -127,7 +130,6 @@ also learn this for interview-->
         height: 20vh; /*same concept as vw*/
         font-size: 20px;
         min-height: 100vh;
-
       }
 
       .box p {
@@ -135,7 +137,7 @@ also learn this for interview-->
         /* para will inherits font-size from box but multiply by 1.5 */
         font-size: 2rem;
         /* para will inherits font-size from root but multiply by 2 */
-        width: 50%;  /*50 percent of the parent
+        width: 50%; /*50 percent of the parent
                        so parent width should be define before using percentage*/
       }
     </style>
