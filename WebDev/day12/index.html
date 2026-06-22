@@ -1,38 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>day12</title>
     <style>
-        
-     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-        p{
-            font-family:  "Roboto Mono", monospace; 
-            /* font-style: italic;
+      p {
+        font-family: "Roboto Mono", monospace;
+        /* font-style: italic;
             font-weight: 700; */
-            border: 2px solid red;
-            width: 20px;
-            overflow: hidden;
-            word-break: break-all;
-            color: #ace1af;
+        border: 2px solid red;
+        width: 20px;
+        overflow: hidden;
+        word-break: break-all;
+        color: #ace1af;
+      }
 
-        }
-        h1{
-            text-decoration: dashed;
-            text-decoration: color(red);
-        }
+      h1 {
+        text-decoration: dashed;
+        text-decoration: color(red);
+        color: red;
+      }
+
+      #head {
+        color: yellow;
+      }
+
+      .main {
+        color: purple;
+      }
+      .top {
+        color: orange;
+      }
+       h1.top{     /*it has more specificity 1+10 = 11 */
+        color: maroon;
+      }
+
+      /* this is a attribute selector */
+      [data-x = a]{
+        color:black
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <h1>my name is yash</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sequi dolores quidem nihil tempore. Minima quidem a ullam in. Sit cupiditate ea, illum doloremque laudantium incidunt eius? Quibusdam voluptates qui minima esse facilis repellat sint numquam ipsam aut optio expedita magnam dolore iure officia, debitis, iste aliquam nulla enim veritatis, sunt saepe eveniet. Repellat, vitae!</p>
+      <h1 id="head" class="main top" data-x="a" style="color: blue">my name is yash</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sequi
+        dolores quidem nihil tempore. Minima quidem a ullam in. Sit cupiditate
+        ea, illum doloremque laudantium incidunt eius? Quibusdam voluptates qui
+        minima esse facilis repellat sint numquam ipsam aut optio expedita
+        magnam dolore iure officia, debitis, iste aliquam nulla enim veritatis,
+        sunt saepe eveniet. Repellat, vitae!
+      </p>
     </div>
-</body>
+  </body>
 </html>
-
 
 <!-- most used txt prop in css
 1.font-family (to change font)
@@ -61,3 +86,18 @@ make sure to select all fonts that u need in once
 
 once import copy paste font family past in css-->
 
+<!-- CSS specificity [it comes under cascade algorithm which main purpose is to resolve conflicts]
+means if  css is applyed on the same element using different methods then which one will applied for that we have a priority
+inline css > id > class > tags > universal
+if same priority then the last one is selected -->
+
+<!-- specificity value
+1. universal = 0
+2.elements selector = 1
+3.class selector = 10
+4.id selector = 100
+5.inline style = 1000 
+6.attribute selector = 10-->
+
+<!--in real world pract use class to apply mutliple css on the same element
+also learn this for interview-->
