@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day12</title>
+    <style>
+        *{
+           margin: 0px;
+           padding: 0px;
+        }
+      .box {
+        border: 2px solid red;
+        display: inline;
+        width: 344px;
+        padding: 20px; 
+        margin: 20px;
+        outline: 2px solid yellow;
+        outline-offset: 20px;
+        box-shadow: 10px 10px 2px 1px  green
+      }
+      span{
+        display: inline-block;
+        border: 2px solid green;
+        margin: 20px;
+        text-shadow: 10px 5px 5px red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">i am not a robot</div>
+    <span>ai is fast</span>
+  </body>
+</html>
+
+<!-- here we change the nature of the element(div) from block to inline using 'display' -->
+
+<!-- width of the div is not changing even by passing the values and only apply when display is inline-block -->
+
+<!-- also margin(top + bottom) only works when display is inline-block -->
+
+<!-- new css property 
+1.box shadow 
+  syntax => box-shadow: horizontal len vertical len blur spread(size of shadow) colour 
+2.text-shadow (same syntax)-->
+
+<!-- outline is not part of the box model 
+     outline-offset = dist btw border and outline
+     -->
