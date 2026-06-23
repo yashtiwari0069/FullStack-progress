@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day13</title>
+    <style>
+      :root {
+        --color: rgb(107, 226, 48);
+        --seccolor: rgb(161, 161, 228);
+        --meow: 300px;
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .nav {
+        background-color: var(--color);
+      }
+      .container {
+        background-color: var(--seccolor);
+        padding: var(--meow);
+      }
+      ul li {
+        --color: orange; /* overwriting the global var */
+
+        background-color: var(--color, red); /* local variable */
+        /*red color is var dont exist*/
+        list-style: none;
+        padding: 30px;
+      }
+      ul {
+        display: flex;
+      }
+      .item1 {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li class="item1">Home</li>
+        <li>About</li>
+        <li>Help</li>
+      </ul>
+    </div>
+
+    <div class="container">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores eos
+      repellat eligendi dolor doloremque, quae libero animi officiis voluptate
+      fugiat vel! Est sit quas, rerum fugit nulla esse fugiat! Voluptates
+      aperiam commodi totam perferendis? Quidem eos soluta commodi impedit
+      aspernatur veniam mollitia fuga quaerat voluptatum beatae. Eius, pariatur.
+      Ipsum nobis deleniti aut optio cumque.
+    </div>
+  </body>
+</html>
+
+<!-- css variables
+
+we can declare variables in style using root or individual class css
+
+you can name the var anything but give it the name which represent the css property
+
+the variable declared in root is global and var declared in class css is local 
+
+bcuz of variable we can make changes from one place instead of changing manually through the code
+
+see code for syntax and understanding -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day13</title>
+    <style>
+      div {
+        background-color: red;
+      }
+
+      @media screen and (orientation: landscape) {
+        body {
+          border: 2px solid purple;
+        }
+      }
+
+      @media only screen and (max-width: 455px) {
+        body {
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>hey i am a red body guy!</div>
+  </body>
+</html>
+
+<!-- css media queries (used in responsive design)
+
+css changes based on the user device screen
+'max-width'= means if screen width is =<455px the css inside {...} will be applied 
+'min-width'= is opposite of max-width
+'orientation:landscape/portrait' = when screen width > height
+
+for syntax see the code-->
