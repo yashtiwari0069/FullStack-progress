@@ -1,102 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day2-fullstackjourney</title>
-</head>
-<body>
-    <img   width="200"  src="image.png" alt="pic of e3 shinkansen">
-    <img   width="200"  src="image2.png" alt="pic of e5 shinkansen">
-    <br>
+  </head>
+  <body>
+    <img width="200" src="image.png" alt="pic of e3 shinkansen" />
+    <img width="200" src="image2.png" alt="pic of e5 shinkansen" />
+    <br />
     <table>
-        <caption>Bullet train info</caption>
-        <thead>
+      <caption>
+        Bullet train info
+      </caption>
+      <thead>
         <tr>
-            <th>Train-Type</th>
-            <th>Max-speed</th>
-            <th>Price</th>
+          <th>Train-Type</th>
+          <th>Max-speed</th>
+          <th>Price</th>
         </tr>
-        </thead>
-        <tbody>
+      </thead>
+      <tbody>
         <tr>
-            <td>E-3</td>
-            <td>275 km/hr</td>
-            <td>$100 millon</td>
+          <td>E-3</td>
+          <td>275 km/hr</td>
+          <td>$100 millon</td>
         </tr>
-        </tbody>
+      </tbody>
 
-        <tfoot>
-         <tr>
-            <td>E-5</td>
-            <td>320 km/hr</td>
-            <td>$200 millon</td>
+      <tfoot>
+        <tr>
+          <td>E-5</td>
+          <td>320 km/hr</td>
+          <td>$200 millon</td>
         </tr>
-        </tfoot>
+      </tfoot>
     </table>
     <ul type="square">
-        <li>Ticket cost</li>
-        <li>Time-Table</li>
-        <li>Route</li>
+      <li>Ticket cost</li>
+      <li>Time-Table</li>
+      <li>Route</li>
     </ul>
     <ol type="A">
-        <li>Ticket cost</li>
-        <li>Time-Table</li>
-        <li>Route</li>
+      <li>Ticket cost</li>
+      <li>Time-Table</li>
+      <li>Route</li>
     </ol>
     <h2>Fill this form to book your tickets</h2>
     <form action="post">
-        <div>
+      <div>
         <label for="username">Enter your username</label>
-        <input type="text" id="username"  name="username" placeholder="Enter your username">
-        </div> 
-        <div>
-            <input type="radio" id=male name="gender" value="male">
-            <label for="male">male</label>
-            <input type="radio" id=female name="gender" value="female">
-            <label for="female">female</label>
-        </div>
-        <div>
-            <input type="checkbox" id="subscribe to this page" name="subscribe or not">
-            <label for="subscribe to this page">subscribe to this page</label>
-        </div>
-        <div>
-            <label for="writearea">write here</label>
-            <br>
-            <textarea id="writearea" rows="10" cols="20" name="txtarea">enter ur exp in bullet train....</textarea>
-        </div>
-        <div>
-            <select name="your fav train">
-                <option value="ICE 3">ICE 3</option>
-                <option value="TGV">TGV</option>
-                <option value="Bullet Train">Bullet Train</option>
-            </select>
-        </div>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+        />
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">female</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="subscribe to this page"
+          name="subscribe or not"
+        />
+        <label for="subscribe to this page">subscribe to this page</label>
+      </div>
+      <div>
+        <label for="writearea">write here</label>
+        <br />
+        <textarea id="writearea" rows="10" cols="20" name="txtarea">
+enter ur exp in bullet train....</textarea
+        >
+      </div>
+      <div>
+        <select name="your fav train">
+          <option value="ICE 3">ICE 3</option>
+          <option value="TGV">TGV</option>
+          <option value="Bullet Train">Bullet Train</option>
+        </select>
+      </div>
     </form>
-</body>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!--inorder to show image/photo on ur webpage 
     we use 'img' tag it is self closing
@@ -120,7 +111,7 @@
             it helps in doing css   
            
             table attributes are colspan-> meaning horizontal expantion of an cell
-                                 rowspan-> opposite of it--> 
+                                 rowspan-> opposite of it-->
 
 <!--'caption' are basically table title-->
 <!--'br' are used to break line means one thing take the whole line-->
@@ -144,7 +135,7 @@
     Lighthouse is used to give a report based on the webpage and show where improveent can be made
     it is located inside inspect-->
 
-    <!--'forms'
+<!--'forms'
         means taking mutliple inputs from the user at once
         input is a tag <input>
         inputs can be of many type like
@@ -172,4 +163,4 @@
 <!--inline elements are the elements which take only required amt of space 
     block elements are the elements which take the whole width -->
 
-  <!--  FOR SYNTAX SEE THE CODE -->
+<!--  FOR SYNTAX SEE THE CODE -->

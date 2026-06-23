@@ -1,81 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day6</title>
+    <style>
+      /* element selector */
+      p {
+        color: yellow;
+        background-color: red;
+      }
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Day6</title>
-        <style>
-            /* element selector */
-            p{
-                color: yellow;
-                background-color: red;
-            }
+      /* class selector */
+      .red {
+        background-color: red;
+      }
 
-            /* class selector */
-            .red{
-                background-color: red;
-            }
+      /* id selector */
+      #green {
+        background-color: green;
+      }
 
-            /* id selector */
-            #green{
-                background-color: green;
-            }
+      /* child selector  (use when txt is directly store in div) */
+      div > h1 {
+        color: blueviolet;
+        background-color: orange;
+      }
 
-            /* child selector  (use when txt is directly store in div) */
-            div > h1{
-                color: blueviolet;
-                background-color: orange;
-            }
+      /* descended selector */
+      div p {
+        color: blueviolet;
+        background-color: orange;
+      }
 
-            /* descended selector */
-            div  p{
-                color: blueviolet;
-                background-color: orange;
-            }
+      /* universal selectors */
+      * {
+        margin: 100;
+        padding: 0;
+      }
 
-            /* universal selectors */
-            *{
-                margin: 100;
-                padding: 0;
-            }
+      /* pseudo selector */
+      /* when someone visited the link change the colour to purple */
+      a:visited {
+        color: purple;
+      }
+      a:hover {
+        background-color: gold;
+      }
+      /* p:first-child  */
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="red">today we are starting css</div>
 
-            /* pseudo selector */
-            /* when someone visited the link change the colour to purple */
-            a:visited{
-                color: purple;
-            }
-            a:hover{
-                background-color: gold;
-            }
-            /* p:first-child  */
-            
-        </style>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-
-    <div class="red">today we are starting css 
-    </div> 
-
-    <br>  
+    <br />
 
     <div id="green">
-     i am very excited
-    <h1>lets gooo</h1>
-    <article>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum enim illo pariatur id corporis quis nostrum alias laudantium! Provident, id.</p>
-    </article>
-    <!-- article is also a type of a container -->
-     
-    </div>  
-    
-    <a href="https://www.youtube.com/watch?v=8Kg74ut6SNU&t=93s" target="_blank">link</a>
-  
+      i am very excited
+      <h1>lets gooo</h1>
+      <article>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum enim
+          illo pariatur id corporis quis nostrum alias laudantium! Provident,
+          id.
+        </p>
+      </article>
+      <!-- article is also a type of a container -->
+    </div>
 
-        <script src="script.js"></script>   
-    </body>
-    </html>
+    <a href="https://www.youtube.com/watch?v=8Kg74ut6SNU&t=93s" target="_blank"
+      >link</a
+    >
+
+    <script src="script.js"></script>
+  </body>
+</html>
 
 <!-- 'semantic tags' play a major role in SEO.
      It means been specific/detailed by using special tags
@@ -83,27 +83,27 @@
      It helps the browser to read/analyze the webpage so that it could rank our page.
      -->
 
- <!-- html ends -->
+<!-- html ends -->
 
- <!-- css starts -->
+<!-- css starts -->
 
-  <!-- 'div' are used to store elements and targetting -->
+<!-- 'div' are used to store elements and targetting -->
 
-   <!-- we can do css in html file using 'style' tag in the head section.(internal css)
+<!-- we can do css in html file using 'style' tag in the head section.(internal css)
    we can select which tags/element we have to style and which property (like color,background colour) to change.
    we can apply same css to multiple tags/elements at once
    see the above code for that. -->
 
-   <!-- css property learnt 
+<!-- css property learnt 
    1.color = text colour
    2.background-color -->
 
-   <!-- there 3 ways to do css on html file
+<!-- there 3 ways to do css on html file
    1.inline css
    2.internal css (buck css)
    3.external css (css file) -->
 
-   <!-- types of css selectors
+<!-- types of css selectors
    1.element selector (html tags like div,h1..etc)
    2.class selectors  
    3.id selectors
@@ -112,5 +112,4 @@
    6.universal selector
    we define in the opening tag -->
 
-   <!-- for syntax see the code -->
-
+<!-- for syntax see the code -->
