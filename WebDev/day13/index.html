@@ -5,24 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day13</title>
     <style>
-      nav ul li {
+      /* nav ul li {
         list-style: devanagari;
         list-style-position: inside;
         background-color: yellow;
         border: 2px solid black;
         /* list-style-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzFncjdoaGdrN282ejk0ODF5eTVscjJ5b3Vjamg0OHZldGFvMjRhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OuQmhmAAdJFLi/giphy.gif"); */
-        list-style-type: "😊";
+      /* list-style-type: "😊";
+      } */
+
+      .box {
+        border: 2px solid black;
+        background-color: pink;
+        height: 10vh;
+        width: 40vw;
+        /* overflow: auto;
+        white-space: nowrap;
+        text-overflow: ellipsis; */
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      p {
+        width: 55vw;
       }
     </style>
   </head>
   <body>
-    <nav>
+    <!-- <nav>
       <ul>
         <li class="item1">Home</li>
         <li>about</li>
         <li>contact</li>
       </ul>
-    </nav>
+    </nav> -->
+
+    <div class="box">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+        consectetur expedita iure, eos magni ad reprehenderit soluta deleniti!
+        Alias tempora maiores quam molestiae dolorem vitae soluta perferendis
+        minus necessitatibus, iure eos nihil aliquid earum nisi. Officia
+        sapiente suscipit saepe optio quod mollitia maxime, praesentium numquam
+        quas ullam eveniet voluptatibus modi vero ea facilis. Alias, debitis?
+      </p>
+    </div>
   </body>
 </html>
 
@@ -38,3 +64,11 @@
      we can also replace the marker with an emoji using
      'list-style-type'.
      WE LEARN STYLING LISTS -->
+
+<!-- 'overflow' means the content inside the div is leaking out
+  to avoid that use 'overflow:auto' it automatically adds a scroll bar if the content leaking out
+
+  'white-space: nowrap'-> the content is in single line (horizontal)
+  'text-overflow: ellipsis' -> gives .. dot effect
+  
+  we can individually control overflow (x and y)-->
