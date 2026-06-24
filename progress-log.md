@@ -55,3 +55,5 @@ web-dev -> topic learnt
 
 #day11 [21 june 2026] -> Taking a day off made plans for the upcomming week
 
+#day12 [22 june 2026] -> 
+
