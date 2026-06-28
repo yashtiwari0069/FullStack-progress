@@ -29,3 +29,39 @@
     </div>
   </body>
 </html>
+
+<!-- css transition -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day18</title>
+    <style>
+      .container {
+        background-color: aliceblue;
+        width: 70vw;
+        height: 50vh;
+      }
+      .box {
+        background-color: antiquewhite;
+        width: 7vw;
+        height: 5vh;
+        transition-property: transform, background-color;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 5s;
+      }
+      .translate {
+        transform: translateX(10vw) translateY(30vh);
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box translate"></div>
+    </div>
+  </body>
+</html>
