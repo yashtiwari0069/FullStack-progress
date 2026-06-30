@@ -57,3 +57,9 @@ web-dev -> topic learnt
 
 #day12 [22 june 2026] -> 
 
+#day20 [30 june 2026] -> topics learnt 
+                         1.object fill and cover
+                         2.css filters
+                         3.js introduction
+                         4.avaScript Variables, Data Types & Objects
+
